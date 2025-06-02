@@ -1,0 +1,148 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Headings */
+h2 {
+  margin-top: 10px;
+}
+
+.section-title {
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #333;
+  border-bottom: 3px solid #0d6efd;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* Hero Section */
+.hero-section {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1f1f1f, #3c3c3c);
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+}
+
+.hero-section .container {
+  max-width: 800px;
+}
+
+/* Responsive Hero Section Text */
+@media (max-width: 576px) {
+  .hero-section h1 {
+    font-size: 2.5rem;
+  }
+  .hero-section p {
+    font-size: 1rem;
+  }
+}
+
+/* Buttons */
+.btn-outline-primary,
+.btn-outline-secondary,
+.btn-outline-success,
+.btn-outline-danger,
+.btn-outline-warning,
+.btn-outline-info,
+.btn-outline-dark {
+  border-radius: 30px;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-secondary:hover,
+.btn-outline-success:hover,
+.btn-outline-danger:hover,
+.btn-outline-warning:hover,
+.btn-outline-info:hover,
+.btn-outline-dark:hover {
+  transform: scale(1.05);
+  color: white;
+}
+
+/* certificates */
+#certificates .btn-primary {
+    background-color: #000000;
+    border-color: #000000;
+    color: #ffffff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#certificates .btn-primary:hover {
+    background-color: #ffffff;
+    border-color: #000000;
+    color: #000000;
+}
+
+footer {
+    background-color: #1a252f;
+}
+
+.social-links i {
+    transition: color 0.3s ease;
+}
+
+.social-links i:hover {
+    color: #a777e3;
+}
+/* Cards */
+.card {
+  border: none;
+  border-radius: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Language Cards */
+.languages-section {
+  border-radius: 20px;
+  padding: 60px 0;
+}
+
+.lang-card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.lang-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.08);
+}
+
+.lang-card .card-title {
+  font-weight: 600;
+  font-size: 1.4rem;
+  margin: 0;
+}
+
+/* projects */
+
+
+/* Contact Form */
+form input,
+form textarea {
+  border-radius: 10px;
+}
+
+/* Footer */
+footer {
+  font-size: 0.9rem;
+  background-color: #111;
+}
+
+/* Back to Top Button */
+#backToTop {
+  z-index: 1000;
+}
